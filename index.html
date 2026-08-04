@@ -36,26 +36,20 @@
 
             </div>
 
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
             <ul>
-
                 <li><a href="#about">About</a></li>
-
                 <li><a href="#problem">Problem</a></li>
-
                 <li><a href="#objectives">Objectives</a></li>
-
                 <li><a href="#design">System</a></li>
-
                 <li><a href="#hardware">Hardware</a></li>
-
                 <li><a href="#workflow">Workflow</a></li>
-
                 <li><a href="#results">Results</a></li>
-
                 <li><a href="#future">Future</a></li>
-
                 <li><a href="#team">Team</a></li>
-
             </ul>
 
         </nav>
@@ -831,6 +825,24 @@
     </p>
 
 </footer>
+
+<script>
+    const nav = document.querySelector('nav');
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelectorAll('nav ul li a');
+
+    toggle.addEventListener('click', () => {
+        nav.classList.toggle('open');
+    });
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (nav.classList.contains('open')) {
+                nav.classList.remove('open');
+            }
+        });
+    });
+</script>
 
 </body>
 
