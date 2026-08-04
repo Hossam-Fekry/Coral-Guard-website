@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coral Guards</title>
+
+    <link rel="icon" type="image/png" href="logo.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header>
+
+        <nav>
+
+            <div class="brand">
+
+                <img src="logo.png" alt="Coral Guards Logo" class="logo-image">
+
+                <h2 class="logo">Coral Guards</h2>
+
+            </div>
+
+            <ul>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#problem">Problem</a></li>
+
+                <li><a href="#objectives">Objectives</a></li>
+
+                <li><a href="#design">System</a></li>
+
+                <li><a href="#hardware">Hardware</a></li>
+
+                <li><a href="#workflow">Workflow</a></li>
+
+                <li><a href="#results">Results</a></li>
+
+                <li><a href="#future">Future</a></li>
+
+                <li><a href="#team">Team</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Coral Guards</h1>
+
+            <h3>
+
+                Solar-Powered Smart Buoy for Real-Time Marine Water Quality Monitoring
+                and Coral Reef Protection
+
+            </h3>
+
+            <p>
+
+                A renewable-energy marine monitoring platform that continuously
+                measures environmental conditions to help protect coral reef ecosystems.
+
+            </p>
+
+            <a href="#about" class="btn">Discover More</a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+        <h2>Introduction</h2>
+
+        <p>
+
+            Coral reefs are among the most valuable marine ecosystems on Earth.
+            They support biodiversity, protect coastlines from erosion, and
+            provide habitats for thousands of marine organisms.
+
+        </p>
+
+        <p>
+
+            Unfortunately, coral reefs are increasingly threatened by pollution,
+            climate change, and declining water quality.
+
+        </p>
+
+        <p>
+
+            Coral Guards is a smart solar-powered buoy capable of continuously
+            monitoring marine water quality and transmitting real-time
+            environmental data for scientific analysis and conservation efforts.
+
+        </p>
+
+    </section>
+
+    <!-- ================= PROBLEM ================= -->
+
+    <section id="problem" class="section dark">
+
+        <h2>Problem Statement</h2>
+
+        <p>
+
+            Traditional marine monitoring depends on manual sampling and field
+            surveys, making it expensive, slow, and unable to provide continuous
+            environmental information.
+
+        </p>
+
+        <h3>Main Challenges</h3>
+
+        <ul>
+
+            <li>Limited monitoring frequency.</li>
+
+            <li>High operational costs.</li>
+
+            <li>Difficult access to remote marine environments.</li>
+
+            <li>Lack of continuous real-time water quality data.</li>
+
+            <li>Delayed detection of coral reef threats.</li>
+
+        </ul>
+
+    </section>
+
+    <!-- ================= OBJECTIVES ================= -->
+
+    <section id="objectives" class="section">
+
+        <h2>Objectives</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <i class="fa-solid fa-solar-panel"></i>
+
+                <h3>Renewable Energy</h3>
+
+                <p>
+
+                    Design a fully autonomous buoy powered by solar energy.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-water"></i>
+
+                <h3>Water Monitoring</h3>
+
+                <p>
+
+                    Measure important marine water parameters continuously.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <h3>GPS Tracking</h3>
+
+                <p>
+
+                    Track the real-time location of the buoy.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-mobile-screen-button"></i>
+
+                <h3>Remote Monitoring</h3>
+
+                <p>
+
+                    Send collected data wirelessly to the monitoring dashboard.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-earth-americas"></i>
+
+                <h3>Environmental Protection</h3>
+
+                <p>
+
+                    Provide an affordable solution for protecting coral reef ecosystems.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SYSTEM DESIGN ================= -->
+
+    <section id="design" class="section dark">
+
+        <h2>System Design</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <i class="fa-solid fa-bolt"></i>
+
+                <h3>Power System</h3>
+
+                <ul>
+
+                    <li>20W Solar Panel</li>
+
+                    <li>Rechargeable Battery</li>
+
+                    <li>Charge Controller</li>
+
+                    <li>Power Management Circuit</li>
+
+                </ul>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-microchip"></i>
+
+                <h3>Monitoring System</h3>
+
+                <ul>
+
+                    <li>ESP32 Development Board</li>
+
+                    <li>Temperature Sensor</li>
+
+                    <li>TDS Sensor</li>
+
+                    <li>Turbidity Sensor</li>
+
+                    <li>GPS Module</li>
+
+                </ul>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-wifi"></i>
+
+                <h3>Communication System</h3>
+
+                <ul>
+
+                    <li>Wireless Wi-Fi Communication</li>
+
+                    <li>Real-Time Dashboard</li>
+
+                    <li>Remote Monitoring</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ======== PART 2 STARTS FROM HERE ======== -->
+     <!-- ================= HARDWARE ================= -->
+
+<section id="hardware" class="section">
+
+    <h2>Hardware Components</h2>
+
+    <div class="cards">
+
+        <div class="card hardware-card">
+
+            <img src="esp.jpeg" alt="ESP32">
+
+            <h3>ESP32 Development Board</h3>
+
+            <p>
+                The main controller responsible for collecting sensor data,
+                processing it, and transmitting it wirelessly.
+            </p>
+
+        </div>
+
+        <div class="card hardware-card">
+
+            <img src="gps.jpeg" alt="GPS Module">
+
+            <h3>NEO-6M GPS Module</h3>
+
+            <p>
+                Provides accurate positioning of the buoy for tracking and
+                monitoring its deployment location.
+            </p>
+
+        </div>
+
+        <div class="card hardware-card">
+
+            <img src="temp.jpeg" alt="Temperature Sensor">
+
+            <h3>DS18B20 Temperature Sensor</h3>
+
+            <p>
+                Measures water temperature with high precision to detect
+                environmental changes.
+            </p>
+
+        </div>
+
+        <div class="card hardware-card">
+
+            <img src="Tds.jpeg" alt="TDS Sensor">
+
+            <h3>TDS Sensor</h3>
+
+            <p>
+                Measures the concentration of dissolved solids to evaluate
+                water quality.
+            </p>
+
+        </div>
+
+        <div class="card hardware-card">
+
+            <img src="turb.jpeg" alt="Turbidity Sensor">
+
+            <h3>Turbidity Sensor</h3>
+
+            <p>
+                Detects suspended particles and water clarity,
+                indicating pollution levels.
+            </p>
+
+        </div>
+
+        <div class="card hardware-card">
+
+            <img src="solar.jpeg" alt="Turbidity Sensor">
+
+            <h3>Solar Panel</h3>
+
+            <p>
+                Provides renewable energy to power the smart buoy,
+                ensuring long-term operation with minimal maintenance.
+            </p>
+
+        </div>
+
+        <div class="card hardware-card">
+
+            <img src="esp32 cam.jpg" alt="Turbidity Sensor">
+
+            <h3>ESP32 Camera</h3>
+
+            <p>
+                used for live underwater image streaming
+                to visually monitor coral reef health.
+            </p>
+
+        </div>
+
+        <div class="card hardware-card">
+
+            <img src="battrey.jpg" alt="Turbidity Sensor">
+
+            <h3>Battery</h3>
+
+            <p>
+                Stores energy for the smart buoy,
+                ensuring continuous operation.
+            </p>
+
+        </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= METHODOLOGY ================= -->
+
+<section class="section dark">
+
+    <h2>Methodology</h2>
+
+    <p>
+
+        Coral Guards continuously collects environmental data using multiple
+        sensors installed on a floating smart buoy.
+
+    </p>
+
+    <p>
+
+        The ESP32 processes all sensor readings and sends them wirelessly
+        to a desktop monitoring application where users can visualize
+        real-time information.
+
+    </p>
+
+    <p>
+
+        The entire system operates using renewable solar energy,
+        allowing long-term deployment with minimal maintenance.
+
+    </p>
+
+</section>
+
+<!-- ================= WORKFLOW ================= -->
+
+<section id="workflow" class="section">
+
+    <h2>System Workflow</h2>
+
+    <div class="workflow">
+
+        <div class="step">
+
+            🌊 Water Environment
+
+        </div>
+
+        <div class="arrow">
+
+            <i class="fa-solid fa-arrow-down"></i>
+
+        </div>
+
+        <div class="step">
+
+            🌡 Temperature • 💧 TDS • 🌫 Turbidity • 📍 GPS
+
+        </div>
+
+        <div class="arrow">
+
+            <i class="fa-solid fa-arrow-down"></i>
+
+        </div>
+
+        <div class="step">
+
+            ESP32 Processing
+
+        </div>
+
+        <div class="arrow">
+
+            <i class="fa-solid fa-arrow-down"></i>
+
+        </div>
+
+        <div class="step">
+
+            Wi-Fi Data Transmission
+
+        </div>
+
+        <div class="arrow">
+
+            <i class="fa-solid fa-arrow-down"></i>
+
+        </div>
+
+        <div class="step">
+
+            Python Monitoring Dashboard
+
+        </div>
+
+        <div class="arrow">
+
+            <i class="fa-solid fa-arrow-down"></i>
+
+        </div>
+
+        <div class="step">
+
+            Real-Time Monitoring
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= RESULTS ================= -->
+
+<section id="results" class="section dark">
+
+    <h2>Project Results</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <i class="fa-solid fa-temperature-three-quarters"></i>
+
+            <h3>Temperature</h3>
+
+            <p>
+                Continuous real-time water temperature measurements.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-water"></i>
+
+            <h3>TDS</h3>
+
+            <p>
+                Water quality monitoring using Total Dissolved Solids values.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-cloud"></i>
+
+            <h3>Turbidity</h3>
+
+            <p>
+                Detects changes in water clarity and pollution levels.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            <h3>GPS Tracking</h3>
+
+            <p>
+                Displays the exact position of the buoy.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FEATURES ================= -->
+
+<section class="section">
+
+    <h2>Key Features</h2>
+
+    <div class="cards">
+
+        <div class="card">☀ Solar Powered</div>
+
+        <div class="card">📡 Real-Time Monitoring</div>
+
+        <div class="card">🌊 Marine Water Quality Analysis</div>
+
+        <div class="card">📍 GPS Tracking</div>
+
+        <div class="card">📱 Desktop Dashboard</div>
+
+        <div class="card">💰 Low Cost</div>
+
+        <div class="card">♻ Renewable Energy</div>
+
+        <div class="card">🌍 Coral Reef Protection</div>
+
+    </div>
+
+</section>
+
+<!-- ================= FUTURE IMPROVEMENTS ================= -->
+
+<section id="future" class="section dark">
+
+    <h2>Future Improvements</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <i class="fa-solid fa-camera"></i>
+
+            <h3>ESP32-CAM Integration</h3>
+
+            <p>
+
+                Add live underwater image streaming for visual inspection of
+                coral reefs.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-brain"></i>
+
+            <h3>Artificial Intelligence</h3>
+
+            <p>
+
+                Implement AI models capable of detecting coral bleaching and
+                marine pollution automatically.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-cloud"></i>
+
+            <h3>Cloud Storage</h3>
+
+            <p>
+
+                Store environmental data securely for long-term monitoring and
+                scientific research.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-flask"></i>
+
+            <h3>Additional Sensors</h3>
+
+            <p>
+
+                Integrate pH, dissolved oxygen, wave height,
+                and wave speed sensors.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-satellite"></i>
+
+            <h3>Satellite Communication</h3>
+
+            <p>
+
+                Allow monitoring even in remote offshore locations without Wi-Fi.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= COMPETITION ================= -->
+
+<section class="section">
+
+    <h2>Competition</h2>
+
+    <div class="cards">
+
+        <div class="card hardware-card">
+
+            <img src="image.png" alt="Brilliant Blue Challenge">
+
+            <h3>Brilliant Blue Challenge</h3>
+
+            <p>
+
+                Coral Guards was developed as part of the Brilliant Blue
+                Challenge, promoting innovative technologies that help protect
+                marine ecosystems and encourage sustainable environmental
+                solutions.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= TEAM ================= -->
+
+<section id="team" class="section dark">
+
+    <h2>Project Team</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>
+
+                <i class="fa-solid fa-users"></i>
+                Team Members
+
+            </h3>
+
+            <p><strong>Hossam Fekry</strong></p>
+
+
+            <br>
+
+            <p><strong>Seif Osama Mustafa</strong></p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>
+
+                <i class="fa-solid fa-user-tie"></i>
+                Mentors
+
+            </h3>
+
+            <p>Eng. Mohamed Mohamed Elnegouly</p>
+
+            <p>Eng. Ali Saad Ali</p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>
+
+                <i class="fa-solid fa-school"></i>
+                School
+
+            </h3>
+
+            <p>
+
+                Modern Age Schools
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <img src="logo.png" class="logo-image" alt="Logo">
+
+    <h2>Coral Guards</h2>
+
+    <p>
+
+        Solar-Powered Smart Buoy for Real-Time Marine Water Quality Monitoring
+
+    </p>
+
+    <br>
+
+    <p>
+
+        Protecting Coral Reefs Through Smart Technology 🌊
+
+    </p>
+
+    <br>
+
+    <p>
+
+        © 2026 Coral Guards Team. All Rights Reserved.
+
+    </p>
+
+</footer>
+
+</body>
+
+</html>
